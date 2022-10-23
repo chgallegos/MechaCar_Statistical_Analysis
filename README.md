@@ -28,11 +28,11 @@ Given that the linear model explains correlations between variables, the slope c
 
 Based on the R-squared value of 0.7, we can determine that the correlation of the model is strong, therefore making it an effective way to predict the mpg values of the MechaCar.
 
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=.%E2%80%8A.-,R%2Dsquared.png,-Challenge%20push)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/R-squared.png)
 
 This is reinforced by the low p-value being lower than the level of significance, meaning that the probability that there is enough evidence to reject the null hypothesis that the variables do not affect the mpg values.
 
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=5%20minutes%20ago-,p%2Dvalue.png,-Challenge%20push)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/p-value.png)
 
 ## Summary Statistics on Suspension Coils
 
@@ -40,11 +40,11 @@ For this part of the analysis, two tables were created from the suspension_coil_
 
 The first one being the total_summary, which shows the summary statistics of PSI for all production
 
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=5%20minutes%20ago-,total_summary.png,-Challenge%20push)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/total_summary.png)
 
 The second table is the lot_summary, that groups the data by manufacturing lot
 
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=5%20minutes%20ago-,lot_summary.png,-Challenge%20push)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/lot_summary.png)
 
 
 -The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -55,18 +55,18 @@ The answer to this is that when we look at the manufacturing data as a whole, th
 
 T-tests were done for two scenarios, the first one a one-sample t-test in order to check if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 PSI
 
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=5%20minutes%20ago-,t%2Dtest_total.png,-Challenge%20push)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/t-test_total.png)
 
 This test allow us to conclude that the PSI is not statistically different from the population mean, which is also backed by the p-value "0.6072" that is not low enought to reject the null hypothesis
 
 When looking at each individual lot, we can conclude that given the p-values for both Lot 1 and 2 (1 and 0.6072) are not low enough to reject the null hypothesis, therefore the PSI numbers are not statistically different.
 
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=5%20minutes%20ago-,t%2Dtest_lot1.png,-Challenge%20push)
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=5%20minutes%20ago-,t%2Dtest_lot2.png,-Challenge%20push)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/t-test_lot1.png)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/t-test_lot2.png)
 
 In the case of Lot 3, the p-value stands at 0.04168, being slightly lower than the 0.05 significance level, we can conclude that this Lot is statistically different.
 
-![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/tree/main/resources#:~:text=5%20minutes%20ago-,t%2Dtest_lot3.png,-Challenge%20push)
+![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/t-test_lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
