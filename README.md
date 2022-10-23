@@ -10,7 +10,7 @@ The linear regression model was ran on RStudio, this provided the y-intercept as
 
 ![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/multiple_regression.png)
 
-Following this model, the summary statistics were called, thus providing us with the data required to analyze the aspects needed for this part of the study, in this case we need to look at **Multiple R-squared*, **p-Value** and **Pr(>|t|)**.
+Following this model, the summary statistics were called, thus providing us with the data required to analyze the aspects needed for this part of the study, in this case we need to look at **Multiple** **R-squared**, **p-Value** and **Pr(>|t|)**.
 
 ![Screenshot](https://github.com/chgallegos/MechaCar_Statistical_Analysis/blob/main/resources/summary_statistics.png)
 
